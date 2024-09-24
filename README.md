@@ -1,2 +1,3 @@
 Albert Le Guillou
-Rapha
+Raphaël Poinsignon
+Gabin Ozaneaux
