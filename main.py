@@ -1,28 +1,20 @@
 from tools import *
 from data import *
 
+
+
+
 def bin_dec_hex__to__bin_dec_hex (start_number, init_base, target_base):
     if target_base == init_base:
         target_number = start_number
     else:
         if init_base == 2 :
-            if target_base == 10:
-                target_number = bin_to_dec(start_number)
-            if target_base == 16:
-                target_number = bin_to_dec(dec_to_bin (start_number))
+            bin_to_target_number(target_base)
         if init_base == 10 :
-            if target_base== 2:
-                target_number = dec_to_bin(start_number)
-            if target_base == 16:
-                target_number = dec_to_hex(start_number)
-
+            dec_to_target_number(target_base)
         if init_base == 16 :
-            if target_base == 2:
-                target_number = hex_to_dec(dec_to_bin(start_number))
-            if target_base == 10:
-                target_number = hex_to_dec(start_number)
-
-    target_number = None
+            hex_to_target_number(target_base)
+            
     return target_number
 
 
