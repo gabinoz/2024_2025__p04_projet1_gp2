@@ -13,7 +13,7 @@ def bin_dec_hex__to__bin_dec_hex (start_number, init_base, target_base):
 
 
 
-assert bin_dec_hex__to__bin_dec_hex ("101", 2, 10) == "5"
+assert bin_dec_hex__to__bin_dec_hex (101, 2, 10) == 5
 
 def do_the_job ():
     init_number = ask_for_the_init_number ()

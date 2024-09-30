@@ -1,5 +1,5 @@
 def ask_for_the_init_number () : # la fonction renvoie un int 
-    init_nb = str (input ('Entrez le nombre de départ, qui doit être entier :'))
+    init_nb = int (input ('Entrez le nombre de départ, qui doit être entier :'))
     return init_nb
 
 def ask_for_the_init_base () : # Les bases sont des entiers
