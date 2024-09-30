@@ -3,11 +3,28 @@ from data import *
 
 def bin_dec_hex__to__bin_dec_hex (start_number, init_base, target_base):
     if init_base == 2 :
-        pass
+        if target_base == init_base:
+            target_number = start_number
+        if target_base == 10:
+            target_number = bin_to_dec(start_number)
+        if target_base == 16:
+            target_number = bin_to_hex(start_number)
     if init_base == 10 :
-        pass
+        if target_base == init_base:
+            target_number == start_number
+        if target_base== 2:
+            target_number = dec_to_bin(start_number)
+        if target_base == 16:
+            target_number = dec_to_hex(start_number)
+
     if init_base == 16 :
-        pass
+        if target_base == init_base:
+            target_number = start_number
+        if target_base == 2:
+            target_number = hex_to_bin(start_number)
+        if target_base == 10:
+            target_number = hex_to_dec(start_number)
+
     target_number = None
     return target_number
 
