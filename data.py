@@ -1,3 +1,4 @@
+from tools import *
 def bin_to_target_number(target_base):
     if target_base == 10:
         target_number = bin_to_dec(start_number)
