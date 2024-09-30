@@ -1,10 +1,17 @@
+from tools import *
+from data import *
 
 def bin_dec_hex__to__bin_dec_hex (start_number, init_base, target_base):
-    pass
+    if init_base == 2 :
+        pass
+    if init_base == 10 :
+        pass
+    if init_base == 16 :
+        pass
     target_number = None
     return target_number
 
-from tools import *
+
 
 assert bin_dec_hex__to__bin_dec_hex ("101", 2, 10) == "5"
 
