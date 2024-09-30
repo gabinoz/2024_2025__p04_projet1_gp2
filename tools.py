@@ -18,12 +18,124 @@ def bin_to_dec (x) :
 def hex_to_dec () :
     pass
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 def dec_to_bin (c) :
     v = []
-    while c // 2 > 0 :
+    while c // 2 != 0 :
         v.append ( c%2 )
         c = c // 2
-    return v
+    v.append ( c%2 )
+    w = []
+    w.append 
+    return w
 print (dec_to_bin (11))
 def dec_to_hex () :
     pass
