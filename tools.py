@@ -8,7 +8,7 @@ def ask_for_the_init_base () : # Les bases sont des entiers
 def ask_for_the_target_base () : # La base est entière
     target_base = int (input ("Entrez la base visée (2 pour le binaire, 10 pour le décimal, 16 pour l'hexadécimal) :"))
 
-def bin_to_dec (x) :
+
     pass
 #     v = [x]
 #     for c in v :
