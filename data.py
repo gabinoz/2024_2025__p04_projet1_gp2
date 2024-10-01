@@ -51,7 +51,7 @@ def verifier_hexa():  #fait sur le meme modèle sans chat gpt
         print(f"L'utilisateur a dit que le nombre est en base hexadécimale : {nombre}. Ce n'est pas vrai, il contient d'autres caractères.")
 
 
-
+#ontest
 
 
 
