@@ -31,9 +31,16 @@ def hex_to_target_number(target_base):
 
 def verifier_binaire():
     nombre = input("Veuillez entrer un nombre: ")
-    
     if all(char in '01' for char in nombre):
-        print(f"L'utilisateur dit que le nombre est binaire : {nombre}. C'est vrai, on peut continuer le code")
+        print(f"L'utilisateur dit que le nombre est en base binaire : {nombre}. C'est vrai, on peut continuer le code")
     else:
-        print(f"L'utilisateur dit que le nombre est binaire : {nombre}. C'est faux, veuillez entrer un nombre dans la base binaire pour continuer le code")
+        print(f"L'utilisateur dit que le nombre est en base binaire : {nombre}. C'est faux, veuillez entrer un nombre dans la base binaire pour continuer le code")
+
+def verifier_decimal():
+    nombre = input("Veuillez entrer un nombre: ")
+    if all(char in '0123456789' for char in nombre):
+        print(f"L'utilisateur a dit que le nombre est en base décimale : {nombre}. C'est vrai, on peut continuer le code")
+    else:
+        print(f"L'utilisateur a dit que le nombre est en base décimale : {nombre}. C'est faux, veuillez entrer un nombre dans la base binaire pour continuer le code")
+
 
