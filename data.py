@@ -3,7 +3,11 @@ from tools import *
 #     start_number = 
 #     target_number =
      
-
+def reverse_chain (chain) :
+    reversed_chain = ""
+    for c in chain :
+        reversed_chain = c + reversed_chain
+    return reversed_chain
 
 def bin_to_target_number(target_base):
     if target_base == 10:
