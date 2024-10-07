@@ -6,7 +6,7 @@ def dec_to_bin (start_number, init_base, target_base) :
         start_number = start_number//2
     return restes
 
-
+#test
 
     
 
