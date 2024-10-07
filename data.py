@@ -28,7 +28,6 @@ def hex_to_target_number(target_base):
         target_number = hex_to_dec(start_number)
 
 
-
 def verifier_binaire():  #utilisation de chat gpt pour la fonction
     nombre = input("Veuillez entrer un nombre: ")  #demande à l'utilisateur de rentrer un nombre
     if all(char in '01' for char in nombre): # vérifier que le nombre ne contient que des 0 et/ou des 1, si c'est vrai alors le nombre ets bien en base binaire
