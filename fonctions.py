@@ -6,21 +6,13 @@ def dec_to_bin (start_number, init_base, target_base) :
         start_number = start_number//2
     return restes
 
-def dec_to_target_number(start_number, init_base, target_base):
-    if target_base == 2:
-        return dec_to_bin(start_number, init_base, target_base) 
+
+
     
 
 
 
-def bin_dec_hex__to__bin_dec_hex (start_number, init_base, target_base):
-    if init_base == 10:
-        return dec_to_target_number(start_number, init_base, target_base)
+
 
             
 
-
-
-
-resultat = bin_dec_hex__to__bin_dec_hex(1347, 10, 2)
-print(resultat)
