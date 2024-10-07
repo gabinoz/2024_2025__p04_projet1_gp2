@@ -22,5 +22,5 @@ def bin_dec_hex__to__bin_dec_hex (start_number, init_base, target_base):
 
 
 
-resultat = bin_dec_hex__to__bin_dec_hex(27, 10, 2)
+resultat = bin_dec_hex__to__bin_dec_hex(1347, 10, 2)
 print(resultat)
