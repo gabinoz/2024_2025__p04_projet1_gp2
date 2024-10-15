@@ -1,3 +1,5 @@
-Albert Le Guillou
-Raphaël Poinsignon
-Gabin Ozaneaux
+# Membres
+
+* Albert Le Guillou
+* Raphaël Poinsignon
+* Gabin Ozaneaux
