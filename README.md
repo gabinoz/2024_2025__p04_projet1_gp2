@@ -1,3 +1,3 @@
-Albert Le Guillou
-Raphaël Poinsignon
-Gabin Ozaneaux
+* Albert Le Guillou
+* Raphaël Poinsignon
+* Gabin Ozaneaux
