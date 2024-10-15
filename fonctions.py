@@ -14,10 +14,9 @@ def dec_to_hex(start_number):
         nb_hex = base_hex[reste]
         nb_hex_final =  str(nb_hex) + nb_hex_final
         start_number = start_number// 16
+    return nb_hex_final
 
-    print(nb_hex_final)
 
-dec_to_hex(4978895)
 
 
 
