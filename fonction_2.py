@@ -1,13 +1,10 @@
-def bin_to_dec (init_number):
-    target_number = 0
-    nbr_de_chiffres_du_nombre_binaire = len(init_number)
-
-    for i in range(nbr_de_chiffres_du_nombre_binaire):
-        target_number = target_number + int(init_number[i]) * (2 ** (nbr_de_chiffres_du_nombre_binaire - 1 - i))
-    resultat = bin_to_dec(init_number)
-    print (resultat)
-
-bin_to_dec(10101)
-
+def bin_to_dec (start_number):
+    cpt = 0
+    dec_number = 0 
+    start_number = str (start_number)
+    for digit in start_number [::-1]: #La notation [::-1] est utilisée pour inverser une séquence en Python (demandé à chat gpt)
+        dec_number += int(digit)*2**cpt
+        cpt+=1
+    print (dec_number)
 
 
