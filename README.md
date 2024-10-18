@@ -33,9 +33,15 @@
 * sélectionnez la base dans laquelle vous voulez que votre nombre soit converti
 
 
-# Répertoires ( à compléter après avoir organisé le fichier et fini le p^rogramme)
+# Répertoires ( à compléter après avoir organisé le fichier et fini le programme)
 
 notre programme s'appuie sur diférents répertoires :
 * le répertoire main qui contient les fonctions ................ qui permmettent de ......................
 * le répertoire data ...............................
 * le répertoire tools qui ...................................................
+
+# Documentation
+
+* docstring pour des apprendre de nouvelles notions python
+* chat gpt pour trouver quelques informations et comprendre des eurreus
+* diverses vidéo youtube pour comprendre comment passer de base en base
