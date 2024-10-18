@@ -45,3 +45,9 @@ notre programme s'appuie sur diférents répertoires :
 * docstring pour des apprendre de nouvelles notions python
 * chat gpt pour trouver quelques informations et comprendre des eurreus
 * diverses vidéo youtube pour comprendre comment passer de base en base
+
+# à faire
+* organiser dans les bons répertoires
+* ajouter une fonction pour que le prgramme tourne en continu tant que l'utilsateur n'a pas appuyer sur une commande pour arrêter
+* ajout des input
+* ajout pour la vérification si l'utilisateur ne se trompe pas quand il indique une base pour son nombre de départ
