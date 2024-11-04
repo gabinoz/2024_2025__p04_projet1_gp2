@@ -23,7 +23,9 @@
 
 # Méthode
 ## Passer de la base décimale à la base binaire
-* Diviser le nombre par 2
+* Diviser le nombre par <p style="color:red;">2</p>
+
+2
 * Noter le reste
 * Répéter
 * Lire les restes à l'envers
