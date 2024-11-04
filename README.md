@@ -10,7 +10,7 @@
 
 # Objectifs du programme
 
-* L'objectif du programme est de permettre à l'utilisateur de convertir un nombre de la base binaire, décimale ou hexadécimale vers la base binaire, décimale ou héxadécimale (il tourne en continu tant que l'utilisateur ne l'a pas arrêté afin d'éviter des maipluations inutiles)
+* L'objectif du programme est de permettre à l'utilisateur de convertir un nombre de la base binaire, décimale ou hexadécimale vers la base binaire, décimale ou héxadécimale (il tourne en continu tant que l'utilisateur ne l'a pas arrêté afin d'éviter des manipulations inutiles)
 
 
 # Définitions 
@@ -68,6 +68,7 @@ notre programme s'appuie sur diférents répertoires :
 * diverses vidéo youtube pour comprendre comment passer de base en base
 
 # à faire
+
 * organiser dans les bons répertoires
 * ajouter une fonction pour que le prgramme tourne en continu tant que l'utilsateur n'a pas appuyer sur une commande pour arrêter
 * ajout des input
