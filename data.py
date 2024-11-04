@@ -2,30 +2,35 @@ from tools import *
 # def dec_to_bin (start_number, init_base, target_base) :
 #     start_number = 
 #     target_number =
-     
-def reverse_chain (chain) :
-    reversed_chain = ""
-    for c in chain :
-        reversed_chain = c + reversed_chain
-    return reversed_chain
+#start_number = int(input ('Entrez le nombre de départ: '))
 
-def bin_to_target_number(target_base):
+
+def bin_to_target_number(target_base, start_number):
     if target_base == 10:
         target_number = bin_to_dec(start_number)
     if target_base == 16:
-        target_number = bin_to_dec(dec_to_bin (start_number))
+        start_number = dec_to_hex (start_number)
+        target_number = bin_to_dec(start_number)
+    return target_number
+# print (bin_to_target_number (10,10))
+print (bin_to_target_number (16,10))
 
-def dec_to_target_number(target_base):
+def dec_to_target_number(target_base, start_number):
     if target_base== 2:
         target_number = dec_to_bin(start_number)
     if target_base == 16:
         target_number = dec_to_hex(start_number)
+    return target_number
+# print (dec_to_target_number(2, 32))
+# print (dec_to_target_number(16, 32))
 
-def hex_to_target_number(target_base):
+def hex_to_target_number(target_base, start_number):
     if target_base == 2:
         target_number = hex_to_dec(dec_to_bin(start_number))
     if target_base == 10:
         target_number = hex_to_dec(start_number)
+    return target_number
+# print (hex_to_target_number(2, '1A'))
 
 
 
@@ -35,7 +40,8 @@ def verifier_binaire(nb):  #utilisation de chat gpt pour la fonction
         print(f"L'utilisateur dit que le nombre {nb} est en base binaire. C'est vrai, on peut continuer le code.")
     else: #si le nombre possède d'autres chiffres que 0 et 1 alors il n'est pas en base en binaire
         print(f"L'utilisateur dit que le nombre {nb} est en base binaire. C'est faux, veuillez entrer un nombre dans la base binaire pour continuer le code.")
-print (verifier_binaire ('12'))
+
+
 def verifier_decimal(nb): #fait sur le meme modèle sans chat gpt
     # nombre = input("Veuillez entrer un nombre décimal: ")
     if all(char in '0123456789' for char in nb):
