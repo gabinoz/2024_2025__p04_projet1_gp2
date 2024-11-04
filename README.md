@@ -3,7 +3,7 @@
 
 # Membres
 
-- Albert Le Guillou
+* Albert Le Guillou
 * Raphaël Poinsignon
 * Gabin Ozaneaux
 
