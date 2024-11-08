@@ -24,8 +24,8 @@
 # Méthode
 ## Passer de la base décimale à la base binaire
 * Diviser le nombre par 2
-* Noter le reste
-* Répéter
+* Noter le reste 
+* Répéter jusqu'à ce que le quotient de la division euclidienne soit égal  0
 * Lire les restes à l'envers
 ## Passer de la base binaire à la base décimale
 * Lister les puissances de 2 : Associez chaque chiffre binaire à une puissance de 2, en commençant par 0 à droite
@@ -34,7 +34,7 @@
 ## Passer de la base décimale à la base hexadécimale
 * Diviser le nombre par 16
 * Noter le reste : Écrivez le reste de cette division. Ce reste sera un chiffre hexadécimal, où les valeurs de 10 à 15 sont représentées par les lettres A à F
-* Répéter
+* Répéter jusqu'à ce que le quotient de la division euclidienne soit égal  0
 * Lire les restes à l'envers
 ## Passer de la base hexa décimale à la base décimale
 * Lister les puissances de 16 : Associez chaque chiffre hexadécimal à une puissance de 16, en commençant par 0 à droite
@@ -49,27 +49,27 @@
 
 # Comment utiliser le programme (à modifier en fonction de la version finale : ordre et peut-être plus détailler)
 
-* sélectionnez la base de déprt dans laquelle est écrite le nombre de départ que vous voulez convertir
 * entrez votre nombre de départ
+* sélectionnez la base de départ dans laquelle est écrite le nombre de départ que vous voulez convertir
 * sélectionnez la base dans laquelle vous voulez que votre nombre soit converti
 
 
 # Répertoires ( à compléter après avoir organisé le fichier et fini le programme)
 
 notre programme s'appuie sur diférents répertoires :
-* le répertoire main qui contient les fonctions ................ qui permmettent de ......................
+* le répertoire main qui contient les fonctions ................ qui permettent de ......................
 * le répertoire data ...............................
 * le répertoire tools qui ...................................................
 
 # Documentation
 
-* docstring pour des apprendre de nouvelles notions python
-* chat gpt pour trouver quelques informations et comprendre des eurreus
-* diverses vidéo youtube pour comprendre comment passer de base en base
+* docstring pour apprendre de nouvelles notions python
+* chat gpt pour trouver quelques informations et comprendre des erreurs
+* diverses vidéo youtube pour comprendre comment passer d'une base donnée vers une autre base
 
 # à faire
 
 * organiser dans les bons répertoires
-* ajouter une fonction pour que le prgramme tourne en continu tant que l'utilsateur n'a pas appuyer sur une commande pour arrêter
+* ajouter une fonction pour que le programme tourne en continu tant que l'utilsateur n'a pas appuyé sur une commande pour arrêter
 * ajout des input
 * ajout pour la vérification si l'utilisateur ne se trompe pas quand il indique une base pour son nombre de départ
