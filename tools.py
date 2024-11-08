@@ -41,7 +41,7 @@ def bin_to_dec(start_number):
 
 def hex_to_dec(start_number):
      base_hex_nombres= ["0","1","2","3","4","5","6","7","8","9"]
-     base_hex_chiffres = ["A","B","C","D","E","F"]
+     base_hex_lettres = ["A","B","C","D","E","F"]
      nombre_en_decimal = 0
      cpt = 0
      start_number = str(start_number)
@@ -56,8 +56,18 @@ def hex_to_dec(start_number):
 
 
 
+print(hex_to_dec (3134))
 
 
+def lettre_en_nombre(chain):
+    cpt = 0
+    base_hex_lettres = ["A","B","C","D","E","F"]
+    base_hex_nombres= ["0","1","2","3","4","5","6","7","8","9"]
+    for chiffres in chain[::-1]:
+        if chain[i] in base_hex_nombres:
+            int()
+
+    
 
 
 
