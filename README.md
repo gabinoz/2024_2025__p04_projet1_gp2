@@ -57,9 +57,9 @@
 # Répertoires ( à compléter après avoir organisé le fichier et fini le programme)
 
 notre programme s'appuie sur diférents répertoires :
-* le répertoire main qui contient les fonctions ................ qui permettent de ......................
-* le répertoire data ...............................
-* le répertoire tools qui ...................................................
+* le répertoire main qui contient les fonctions in_dec_hex__to__bin_dec_hex et do_the_job qui permettent d'appeler les d'appeler les fonctions de tools et d'éxécuter le programme.
+
+* le répertoire tools qui contient toutes les fonctions calculatoires, les fonctions ask et la fonction verifParam qui permet de vérifier que les variables entées sont justes.
 
 # Documentation
 
@@ -69,7 +69,5 @@ notre programme s'appuie sur diférents répertoires :
 
 # à faire
 
-* organiser dans les bons répertoires
 * ajouter une fonction pour que le programme tourne en continu tant que l'utilsateur n'a pas appuyé sur une commande pour arrêter
-* ajout des input
-* ajout pour la vérification si l'utilisateur ne se trompe pas quand il indique une base pour son nombre de départ
+
