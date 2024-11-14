@@ -47,7 +47,7 @@
 * il est utilisable sur  les systèmes d'exploitation Windows, Mac, Linux mais pas sur Ios et Android
 
 
-# Comment utiliser le programme (à modifier en fonction de la version finale : ordre et peut-être plus détailler)
+# Comment utiliser le programme 
 
 * entrez votre nombre de départ
 * sélectionnez la base de départ dans laquelle est écrite le nombre de départ que vous voulez convertir
