@@ -48,6 +48,7 @@ def hex_to_dec(start_number):
 
 def dec_to_bin(start_number):
     restes = ""
+    start_number = int(start_number)
     while start_number > 0:
         reste = start_number % 2    
         restes = str(reste) + restes
