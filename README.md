@@ -10,7 +10,7 @@
 
 # Objectifs du programme
 
-* L'objectif du programme est de permettre à l'utilisateur de convertir un nombre de la base binaire, décimale ou hexadécimale vers la base binaire, décimale ou héxadécimale (il tourne en continu tant que l'utilisateur ne l'a pas arrêté afin d'éviter des manipulations inutiles)
+* L'objectif du programme est de permettre à l'utilisateur de convertir un nombre de la base binaire, décimale ou hexadécimale vers la base binaire, décimale ou héxadécimale 
 
 
 # Définitions 
