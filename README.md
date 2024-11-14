@@ -67,7 +67,4 @@ notre programme s'appuie sur diférents répertoires :
 * chat gpt pour trouver quelques informations et comprendre des erreurs
 * diverses vidéo youtube pour comprendre comment passer d'une base donnée vers une autre base
 
-# à faire
-
-* ajouter une fonction pour que le programme tourne en continu tant que l'utilsateur n'a pas appuyé sur une commande pour arrêter
 
