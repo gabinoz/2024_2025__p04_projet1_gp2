@@ -54,7 +54,7 @@
 * sélectionnez la base dans laquelle vous voulez que votre nombre soit converti
 
 
-# Répertoires ( à compléter après avoir organisé le fichier et fini le programme)
+# Répertoires 
 
 notre programme s'appuie sur diférents répertoires :
 * le répertoire main qui contient les fonctions in_dec_hex__to__bin_dec_hex et do_the_job qui permettent d'appeler les d'appeler les fonctions de tools et d'éxécuter le programme.
