@@ -1,9 +1,12 @@
 def bin_to_target_number(target_base, start_number):
     if target_base == 10:
         target_number = bin_to_dec(start_number)
-    if target_base == 16:
+    elif target_base == 16:
         target_number = dec_to_hex(bin_to_dec(start_number))
+    else:
+        raise ValueError("Base cible invalide. Seules les bases 10 et 16 sont supportées.")
     return target_number
+
 
 def bin_to_dec(start_number):
     cpt = 0
@@ -24,10 +27,15 @@ def dec_to_target_number(target_base, start_number):
 
 def hex_to_target_number(target_base, start_number):
     if target_base == 2:
-        target_number = hex_to_dec(dec_to_bin(start_number))
-    if target_base == 10:
+        target_number = dec_to_bin(hex_to_dec(start_number))
+    elif target_base == 10:
         target_number = hex_to_dec(start_number)
+    elif target_base == 16:
+        target_number = start_number  # retourne directement le nombre en base 16
+    else:
+        raise ValueError("Base cible invalide. Seules les bases 2, 10 et 16 sont supportées.")
     return target_number
+
 
 def hex_to_dec(start_number):
     # Définit les valeurs hexadécimales pour les chiffres de 0 à F
